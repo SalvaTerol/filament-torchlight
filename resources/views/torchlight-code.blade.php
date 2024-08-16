@@ -3,7 +3,7 @@
     :field="$field"
 >
     <pre
-        x-load-css="[@js(\Filament\Support\Facades\FilamentAsset::getStyleHref('filament-torchlight', package: 'mansoor/filament-torchlight'))]"
+        x-load-css="[@js(\Filament\Support\Facades\FilamentAsset::getStyleHref('filament-torchlight', package: 'salvaterol/filament-torchlight'))]"
     >
         <x-torchlight-code
             language="{{ $field->getLanguage() ?? ''  }}"
