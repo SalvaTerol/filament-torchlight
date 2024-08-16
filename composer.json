@@ -2,7 +2,6 @@
     "name": "salvaterol/filament-torchlight",
     "description": "This is my package filament-torchlight",
     "keywords": [
-        "mansoor",
         "laravel",
         "filament-torchlight",
         "torchlight"
@@ -30,8 +29,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Mansoor\\FilamentTorchlight\\": "src/",
-            "Mansoor\\FilamentTorchlight\\Database\\Factories\\": "database/factories/"
+            "SalvaTerol\\FilamentTorchlight\\": "src/",
+            "SalvaTerol\\FilamentTorchlight\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
@@ -53,4 +52,5 @@
         }
     },
     "minimum-stability": "dev",
+    "prefer-stable": true
 }
