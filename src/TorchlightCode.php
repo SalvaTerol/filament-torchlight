@@ -1,6 +1,6 @@
 <?php
 
-namespace Mansoor\FilamentTorchlight;
+namespace SalvaTerol\FilamentTorchlight;
 
 use Filament\Forms\Components\Field;
 
