@@ -1,5 +1,5 @@
 {
-    "name": "mansoor/filament-torchlight",
+    "name": "salvaterol/filament-torchlight",
     "description": "This is my package filament-torchlight",
     "keywords": [
         "mansoor",
@@ -36,7 +36,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Mansoor\\FilamentTorchlight\\Tests\\": "tests/"
+            "SalvaTerol\\FilamentTorchlight\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -48,10 +48,9 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mansoor\\FilamentTorchlight\\FilamentTorchlightServiceProvider"
+                "SalvaTerol\\FilamentTorchlight\\FilamentTorchlightServiceProvider"
             ]
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
 }
