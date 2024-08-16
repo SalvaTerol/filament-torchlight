@@ -23,7 +23,7 @@ class FilamentTorchlightServiceProvider extends PackageServiceProvider
     {
         FilamentAsset::register(
             [Css::make(static::$name, __DIR__.'/../resources/dist/css/filament-torchlight.css')->loadedOnRequest()],
-            'mansoor/filament-torchlight'
+            'salvaterol/filament-torchlight'
         );
     }
 }
